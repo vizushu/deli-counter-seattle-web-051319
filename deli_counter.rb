@@ -10,13 +10,13 @@
   
   
 
-def line(in_line)
-  if in_line.size == 0
+def line(katz_deli)
+  if katz_deli.size == 0
   puts "The line is currently empty."
   else
      result="The line is currently:"
-     in_line.each do |customer|
-       result += " #{in_line.index(customer)+1}. #{customer}"
+     katz_deli.each do |customer|
+       result += " #{katz_deli.index(customer)+1}. #{customer}"
      end
      puts result
    end
