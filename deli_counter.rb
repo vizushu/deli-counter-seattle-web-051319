@@ -11,7 +11,7 @@
   
 
 def line(in_line)
-  if in_line = 0
+  if in_line == 0
   puts "The line is currently empty."
   else
      result="The line is currently:"
